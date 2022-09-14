@@ -63,16 +63,16 @@
 			</p>
 		</div>
 		<div
-			class="flex flex-col md:flex-row md:gap-4 gap-16 md:justify-between p-4 md:p-16"
+			class="flex flex-col md:flex-row md:gap-4 gap-16 md:justify-between flex-wrap p-4 md:p-16"
 		>
 			<div
 				v-for="{ icon, title, description } in items"
 				:key="title"
-				class="md:w-1/5 flex flex-col gap-6"
+				class="md:w-48 flex flex-col gap-6"
 			>
-				<img :src="icon" :alt="title" class="w-1/3" />
+				<img :src="icon" :alt="title" class="w-16 md:w-1/3" />
 				<h3 class="text-2xl">{{ title }}</h3>
-				<p class="text-gray-text">{{ description }}</p>
+				<p class="text-gray-text max-w-64">{{ description }}</p>
 			</div>
 		</div>
 	</section>

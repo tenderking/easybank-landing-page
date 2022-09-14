@@ -1,5 +1,5 @@
 <template>
-	<section class="p-4 md:p-16">
+	<section class="p-4 md:p-24 mb-8">
 		<h2 class="bold text-2xl md:text-4xl text-noytral-text mb-4 md:mb-16">
 			The Latest Articles
 		</h2>
@@ -9,10 +9,14 @@
 				v-for="{ id, image, author, title, description } in cards"
 				:key="id"
 			>
-				<img :src="image" alt="card-image" class="h-60" />
+				<img
+					:src="image"
+					alt="card-image"
+					class="aspect-video md:aspect-square"
+				/>
 				<div class="p-4 flex flex-col gap-4">
 					<p class="text-gray-text text-sm">{{ author }}</p>
-					<h3 class="w-60 hover:text-lime-green">{{ title }}</h3>
+					<h3 class="max-w-60 hover:text-lime-green">{{ title }}</h3>
 					<p class="text-gray-text">{{ description }}</p>
 				</div>
 			</div>
