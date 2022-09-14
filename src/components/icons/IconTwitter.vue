@@ -1,5 +1,11 @@
 <template>
-	<svg xmlns="http://www.w3.org/2000/svg" width="21" height="18">
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width="21"
+		height="18"
+		aria-labelledby="icon-twitter"
+	>
+		<title id="icon-twitter">Twitter Icon</title>
 		<path
 			fill="#FFF"
 			class="hover:fill-lime-green"

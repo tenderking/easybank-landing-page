@@ -1,5 +1,11 @@
 <template>
-	<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width="20"
+		height="20"
+		aria-labelledby="icon-facebook"
+	>
+		<title id="icon-facebook">Facebook Icon</title>
 		<path
 			fill="#FFF"
 			class="hover:fill-lime-green"

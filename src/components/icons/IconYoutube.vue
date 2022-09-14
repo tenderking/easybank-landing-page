@@ -1,5 +1,11 @@
 <template>
-	<svg xmlns="http://www.w3.org/2000/svg" width="21" height="20">
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width="21"
+		height="20"
+		aria-labelledby="icon-youtube"
+	>
+		<title id="icon-youtube">Youtube Icon</title>
 		<path
 			fill="#FFF"
 			class="hover:fill-lime-green"

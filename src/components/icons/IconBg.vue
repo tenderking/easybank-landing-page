@@ -6,14 +6,15 @@
 			xmlns:xlink="http://www.w3.org/1999/xlink"
 			width="100%"
 			height="423"
+			aria-labelledby="blob-background-mobile"
 		>
+			<title id="blob-background-mobile">Background element</title>
 			<defs>
 				<linearGradient id="c" x1="0%" x2="99.58%" y1="36.139%" y2="63.745%">
 					<stop offset="0%" stop-color="#33D35E" />
 					<stop offset="100%" stop-color="#2AB6D9" />
 				</linearGradient>
 				<filter
-					id="a"
 					width="116.9%"
 					height="158.7%"
 					x="-10.8%"
@@ -32,7 +33,6 @@
 					/>
 				</filter>
 				<path
-					id="b"
 					d="M42.46 162.61l70.744 70.76a100 100 0 0070.719 29.298h11.03a100 100 0 0170.719 29.298l75.718 75.736A100 100 0 00412.109 397H633.78c27.507 0 49.805-22.299 49.805-49.805a49.805 49.805 0 00-14.583-35.213l-52.835-52.848c-7.359-7.36-7.357-19.294.003-26.653a18.846 18.846 0 0113.325-5.518c10.408 0 18.846-8.438 18.846-18.846 0-4.997-1.985-9.79-5.518-13.325L534.747 86.691a100 100 0 00-70.72-29.298H352.013a97.948 97.948 0 01-69.267-28.696A97.948 97.948 0 00213.477 0H84.94c-19.435 0-35.19 15.755-35.19 35.19a35.19 35.19 0 0010.304 24.88L77.65 77.669c9.715 9.717 9.713 25.47-.004 35.185a24.88 24.88 0 01-17.59 7.285c-13.742 0-24.88 11.14-24.88 24.88a24.88 24.88 0 007.284 17.59z"
 				/>
 			</defs>
@@ -52,7 +52,9 @@
 			width="100%"
 			height="1034"
 			class="md:-mt-20 lg:-mt-40"
+			aria-labelledby="blob-background-desktop"
 		>
+			<title id="blob-background-desktop">Background element</title>
 			<defs>
 				<linearGradient id="c" x1="0%" x2="99.58%" y1="36.147%" y2="63.736%">
 					<stop offset="0%" stop-color="#33D35E" />

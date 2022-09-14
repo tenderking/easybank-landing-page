@@ -3,10 +3,9 @@
 		xmlns="http://www.w3.org/2000/svg"
 		width="139"
 		height="20"
-		aria-labelledby="icon-logo"
-		role="logo"
+		:aria-labelledby="idText"
 	>
-		<title id="icon-logo">Logo</title>
+		<title :id="idText">Logo</title>
 		<defs>
 			<linearGradient id="a" x1="72.195%" x2="17.503%" y1="0%" y2="100%">
 				<stop offset="0%" stop-color="#33D35E" />
@@ -60,7 +59,13 @@
 	</svg>
 </template>
 <script setup lang="ts">
-	defineProps<{
-		fillColor?: string;
-	}>();
+	defineProps({
+		fillColor: {
+			type: String,
+		},
+		idText: {
+			type: String,
+			required: true,
+		},
+	});
 </script>

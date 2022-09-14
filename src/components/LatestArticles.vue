@@ -1,5 +1,5 @@
 <template>
-	<section class="p-4 md:p-24 mb-8">
+	<section class="p-4 md:p-24 mb-8 bg-very-light-gray">
 		<h2 class="bold text-2xl md:text-4xl text-noytral-text mb-4 md:mb-16">
 			The Latest Articles
 		</h2>
