@@ -1,5 +1,5 @@
 <template>
-	<div class="flex flex-col items-center justify-between gap-4">
+	<div class="flex flex-col items-center justify-between gap-4 mb-8 md:mb-0">
 		<IconLogo :fillColor="darkBg" :idText="idText" />
 		<div class="flex gap-4">
 			<IconFacebook />
@@ -14,7 +14,7 @@
 		</div>
 	</div>
 
-	<nav role="navigation" aria-label="Footer">
+	<nav role="navigation" aria-label="Footer" class="mb-8 md:mb-0">
 		<ul
 			class="md:grid flex flex-col gap-4 grid-cols-2 grid-flow-row text-center md:text-left items-center place-items-stretch text-white"
 		>
