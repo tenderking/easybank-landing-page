@@ -61,7 +61,6 @@
 </template>
 <script setup lang="ts">
 	defineProps<{
-		fillColor: string;
-		required: false;
+		fillColor?: string;
 	}>();
 </script>
