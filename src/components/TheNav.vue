@@ -12,7 +12,6 @@
 </script>
 <template>
 	<nav
-		role="navigation"
 		aria-label="Main"
 		class="w-100 flex justify-between items-center py-3.5 bg-white md:px-16 px-4 relative"
 	>

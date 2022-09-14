@@ -62,7 +62,6 @@
 					<stop offset="100%" stop-color="#2AB6D9" />
 				</linearGradient>
 				<filter
-					id="a"
 					width="104.9%"
 					height="135.9%"
 					x="-4.8%"

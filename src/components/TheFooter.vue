@@ -1,7 +1,7 @@
 <template>
 	<div class="flex flex-col items-center justify-between gap-4">
 		<IconLogo :fillColor="darkBg" :idText="idText" />
-		<div class="flex gap-6 mb-4">
+		<div class="flex gap-4">
 			<IconFacebook />
 
 			<IconYoutube />
@@ -49,7 +49,7 @@
 		</ul>
 	</nav>
 
-	<div class="flex flex-col gap-4 my-8 items-center justify-between">
+	<div class="flex flex-col gap-4 items-center justify-between">
 		<CtaButton />
 		<p class="text-gray-text">© Easybank. All Rights Reserved</p>
 	</div>

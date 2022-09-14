@@ -60,21 +60,19 @@
 			<h2 class="bold text-2xl md:text-4xl text-noytral-text mb-4 md:mb-16">
 				Why Choose Easybank
 			</h2>
-			<p class="text-gray-text mb-4 md:w-1/2">
+			<p class="text-gray-text mb-4 md:w-1/2 md:mb-16">
 				We leverage Open Banking to turn your bank account into your financial
 				hub. Control your finances like never before.
 			</p>
 		</div>
-		<div
-			class="flex flex-col md:flex-row md:gap-4 gap-16 md:justify-between flex-wrap p-4 md:p-16"
-		>
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
 			<div
 				v-for="{ icon, title, description } in items"
 				:key="title"
 				class="md:w-48 flex flex-col gap-6"
 			>
 				<img :src="icon" :alt="title" class="w-16 md:w-1/3" />
-				<h3 class="text-2xl">{{ title }}</h3>
+				<h3 class="text-2xl text-noytral-text">{{ title }}</h3>
 				<p class="text-gray-text max-w-64">{{ description }}</p>
 			</div>
 		</div>

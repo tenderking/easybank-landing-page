@@ -3,7 +3,7 @@
 		<h2 class="bold text-2xl md:text-4xl text-noytral-text mb-4 md:mb-16">
 			The Latest Articles
 		</h2>
-		<div class="flex flex-col md:flex-row gap-16 md:gap-8">
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
 			<div
 				class="shadow-md rounded-md overflow-hidden flex flex-col gap-4"
 				v-for="{ id, image, author, title, description } in cards"
@@ -16,7 +16,9 @@
 				/>
 				<div class="p-4 flex flex-col gap-4">
 					<p class="text-gray-text text-sm">{{ author }}</p>
-					<h3 class="max-w-60 hover:text-lime-green">{{ title }}</h3>
+					<h3 class="max-w-60 text-noytral-text hover:text-lime-green">
+						{{ title }}
+					</h3>
 					<p class="text-gray-text">{{ description }}</p>
 				</div>
 			</div>
