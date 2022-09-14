@@ -4,6 +4,7 @@
 		width="20"
 		height="20"
 		aria-labelledby="icon-pinterest"
+		role="link"
 	>
 		<title id="icon-pinterest">Pinterest Icon</title>
 		<path

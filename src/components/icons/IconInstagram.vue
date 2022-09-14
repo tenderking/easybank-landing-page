@@ -4,6 +4,7 @@
 		width="21"
 		height="20"
 		aria-labelledby="icon-insta"
+		role="link"
 	>
 		<title id="icon-insta">Instagram Icon</title>
 		<path

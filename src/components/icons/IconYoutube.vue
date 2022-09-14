@@ -4,6 +4,7 @@
 		width="21"
 		height="20"
 		aria-labelledby="icon-youtube"
+		role="link"
 	>
 		<title id="icon-youtube">Youtube Icon</title>
 		<path

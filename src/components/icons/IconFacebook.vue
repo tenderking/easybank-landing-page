@@ -4,6 +4,7 @@
 		width="20"
 		height="20"
 		aria-labelledby="icon-facebook"
+		role="link"
 	>
 		<title id="icon-facebook">Facebook Icon</title>
 		<path

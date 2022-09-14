@@ -7,6 +7,7 @@
 			width="100%"
 			height="423"
 			aria-labelledby="blob-background-mobile"
+			role="img"
 		>
 			<title id="blob-background-mobile">Background element</title>
 			<defs>

@@ -4,6 +4,7 @@
 		width="21"
 		height="18"
 		aria-labelledby="icon-twitter"
+		role="link"
 	>
 		<title id="icon-twitter">Twitter Icon</title>
 		<path
